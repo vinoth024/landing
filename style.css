@@ -1,0 +1,136 @@
+body{
+    margin:0;
+}
+
+.landing{
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:white;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFBB64;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+}
+
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+}
+
+nav{
+    flex:2;
+    display: flex;
+}
+
+nav a{
+    flex: 1;
+}
+
+nav a:hover{
+    color: antiquewhite;
+}
+
+.maintext{
+    display:flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content:center;
+    padding: 2em;
+    
+}
+
+.tagline1{
+    color:#1d0505;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.tagline2{
+    color: #1d0505;
+}
+
+.tagline3{
+    color:#1d0505;
+}
+
+.maintext div{
+    margin-top:0.75em;
+}
+
+.maintext button{
+    width:20vw;
+    margin-top:2em;
+    border-radius: 10px;
+    background-color: green;
+    color:white;
+    border-color: white;
+}
+
+.Menu{
+    display: grid;
+    background:linear-gradient(to right,rgb(213, 207, 18),rgb(222, 235, 134));
+    color: black;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+}
+
+#Menuheading,#locheading{
+    background:linear-gradient(to right,rgb(213, 207, 18),rgb(222, 235, 134));
+    margin: 0%;
+    color:#120f04;
+    text-align: center;
+}
+
+.Menu th{
+    color:#10d964;
+    font-size: 25px;
+
+}
+
+table{
+    width:100%;
+    padding: 1em;
+}
+
+.Menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.Menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+
+.Menu td:nth-child(2){
+    justify-self: right;
+}
+
+.locations{
+    margin-top: -20px;
+    background:linear-gradient(to right,rgb(213, 207, 18),rgb(222, 235, 134));
+    color:#120f04;
+    display: flex;
+}
+
+.locations h2{
+    color: #10d964;
+}
+
+.locations div{
+    flex: 1;
+    padding: 1em;
+}
+
+footer{
+    color: aliceblue;
+    background: linear-gradient(to right,black,white);
+}
